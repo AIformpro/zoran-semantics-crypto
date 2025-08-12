@@ -1,2 +1,14 @@
-# zoran-semantics-crypto
-Cryptage sémantique: ondelettes sémantiques, qubits de sens (prototype).
+# zoran-semantique-crypto
+
+Prototype de cryptage sémantique (ondelettes sémantiques & qubits de sens).
+
+## Installation
+```bash
+pip install -e .
+```
+
+## CLI
+```bash
+zsc enc "bonjour zoran"
+zsc dec "<payload_base64>"
+```
